@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="student-dashboard.css">
+</head>
+
+<body>
+
+<div class="header">
+  <div>
+    <h2 id="studentName"></h2>
+  </div>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<h3 class="section-title">Attendance Details</h3>
+<!-- Calendar Filter -->
+<div class="calendar-box">
+  <label>Select Date:</label>
+  <input type="date" id="datePicker">
+</div>
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <!-- ✅ Added Date column -->
+        <th>Date</th>
+        <th>Subject</th>
+        <th>Attendance</th>
+        <th>Present</th>
+        <th>Late</th>
+        <th>Absent</th>
+      </tr>
+    </thead>
+
+    <!-- JS will insert rows here -->
+    <tbody id="attendanceTable">
+    </tbody>
+
+  </table>
+</div>
+
+<div class="legend">
+  <div><span class="green"></span> Above 75%</div>
+  <div><span class="yellow"></span> 50% – 75%</div>
+  <div><span class="red"></span> Below 55%</div>
+</div>
+
+<script src="student-dashboard.js"></script>
+</body>
+</html>

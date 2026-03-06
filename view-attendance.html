@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>View Attendance Reports</title>
+  <link rel="stylesheet" href="view-attendance.css">
+</head>
+<body>
+
+<h2>Attendance Reports</h2>
+
+<select id="classSelect">
+  <option value="">-- Select Class --</option>
+</select>
+
+<div class="table-container">
+  <table id="reportTable">
+    <thead>
+      <tr>
+        <th>Student ID</th>
+        <th>Name</th>
+        <th>Present</th>
+        <th>Late</th>
+        <th>Absent</th>
+        <th>Attendance %</th>
+      </tr>
+    </thead>
+    <tbody id="reportBody">
+      <!-- rows added by JS -->
+    </tbody>
+  </table>
+</div>
+
+<script src="view-attendance.js"></script>
+</body>
+</html>
+

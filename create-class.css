@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* Card Container */
+.page-container {
+    max-width: 850px;
+    margin: 70px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h2 {
+    font-size: 34px;
+    margin-bottom: 35px;
+    color: #1e293b;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #334155;
+}
+
+/* Input Rows */
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    font-size: 15px;
+    background: #f9fafb;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #6366f1;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
+    outline: none;
+}
+
+/* Add Button */
+#addStudentBtn {
+    padding: 14px 24px;
+    border-radius: 12px;
+    border: none;
+    background: #e2e8f0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#addStudentBtn:hover {
+    background: #cbd5e1;
+}
+
+/* Student Box */
+#studentList {
+    min-height: 60px;
+    padding: 20px;
+    background: #f1f5f9;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+/* Save Button */
+#saveClassBtn {
+    padding: 15px 30px;
+    border-radius: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to right, #6366f1, #818cf8);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#saveClassBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(99,102,241,0.3);
+}
+

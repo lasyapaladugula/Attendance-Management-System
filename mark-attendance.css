@@ -1,0 +1,85 @@
+body {
+  padding: 30px;
+  background: #f4f6f8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.table-container {
+  background: white;
+  border-radius: 16px;
+  overflow-x: auto;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: linear-gradient(to right, #5f72d8, #6c83e6);
+  color: white;
+}
+
+th, td {
+  padding: 16px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+/* STATUS BUTTON STYLE */
+.status-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px; /* square */
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: 0.2s ease;
+}
+
+/* COLORS */
+.status-btn.present { background: #2ecc71; }
+.status-btn.late { background: #95a5a6; }
+.status-btn.absent { background: #e74c3c; }
+
+/* SELECTED STYLE */
+input[type="radio"]:checked + .status-btn {
+  border: 3px solid #333;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: linear-gradient(to right, #5f72d8, #6c83e6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+

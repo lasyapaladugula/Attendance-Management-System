@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+<body>
+
+<h2 id="adminName"></h2>
+
+<div class="admin-cards">
+  <div class="admin-card" onclick="go('create-class')">
+    📚 Create Class
+  </div>
+  <div class="admin-card" onclick="go('mark-attendance')">
+    📝 Mark Attendance
+  </div>
+  <div class="admin-card" onclick="go('view-attendance')">
+    📊 View Attendance
+  </div>
+</div>
+
+<button class="logout" onclick="logout()">Logout</button>
+
+<script src="admin-dashboard.js"></script>
+</body>
+</html>

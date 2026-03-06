@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Class</title>
+    <link rel="stylesheet" href="../admin-common.css">
+</head>
+<body>
+
+<div class="page-container">
+
+    <h2>Create Class</h2>
+
+    <!-- FORM START -->
+    <form id="createClassForm">
+
+        <div class="row">
+            <input type="text" id="className" placeholder="Class Name (eg: IT-A)">
+            <input type="text" id="subject" placeholder="Subject Name">
+            <input type="date" id="classTime" required />
+        </div>
+
+        <h3>Add Students</h3>
+
+        <div class="row">
+            <input type="text" id="studentIdInput" placeholder="Student ID">
+            <input type="text" id="studentNameInput" placeholder="Student Name">
+            <button type="button" id="addStudentBtn">Add</button>
+        </div>
+
+        <div id="studentList">
+            <!-- Students will appear here -->
+        </div>
+
+        <button type="submit">Save Class</button>
+
+    </form>
+    <!-- FORM END -->
+
+</div>
+
+<script src="create-class.js" defer></script>
+
+</body>
+</html>

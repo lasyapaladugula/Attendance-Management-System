@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mark Attendance</title>
+  <link rel="stylesheet" href="mark-attendance.css">
+</head>
+
+<body>
+
+<div class="page-container">
+
+  <h2>Mark Attendance</h2>
+
+  <label>Select Class</label><br>
+  <select id="classSelect">
+    <option value="">-- Select Class --</option>
+  </select>
+
+  <br><br>
+
+  <label>Select Date</label><br>
+  <input type="date" id="attendanceDate">
+
+  <div class="attendance-card">
+    <table id="attendanceTable">
+      <thead>
+        <tr>
+          <th>Student ID</th>
+          <th>Name</th>
+          <th>Present</th>
+          <th>Late</th>
+          <th>Absent</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <button id="submitAttendance" class="primary">
+    Submit Attendance
+  </button>
+
+</div>
+
+<script src="mark-attendance.js"></script>
+
+</body>
+</html>

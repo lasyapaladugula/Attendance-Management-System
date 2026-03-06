@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select Role</title>
+  <link rel="stylesheet" href="css/role.css">
+</head>
+<body>
+
+<div class="role-container">
+  <h1>Attendance Management System</h1>
+  <p>Select your role to continue</p>
+
+  <div class="role-cards">
+    <div class="role-card" onclick="goStudent()">
+      <h2>🎓 Student</h2>
+      <p>View attendance & status</p>
+    </div>
+
+    <div class="role-card" onclick="goAdmin()">
+      <h2>🧑‍💼 Admin</h2>
+      <p>Manage classes & attendance</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  function goStudent() {
+    window.location.href = "signup/student-signup.html";
+  }
+
+  function goAdmin() {
+    window.location.href = "signup/admin-signup.html";
+  }
+</script>
+
+</body>
+</html>

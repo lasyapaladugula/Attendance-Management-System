@@ -1,0 +1,114 @@
+/* ================================
+   GLOBAL
+================================ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* Center container */
+.page-container {
+    max-width: 900px;
+    margin: 60px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* ================================
+   HEADINGS
+================================ */
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #334155;
+}
+
+/* ================================
+   INPUT ROW
+================================ */
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+    flex: 1;
+    padding: 14px 16px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    transition: 0.3s ease;
+    background: #f9fafb;
+}
+
+input:focus {
+    border-color: #6366f1;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* ================================
+   ADD BUTTON
+================================ */
+#addStudentBtn {
+    padding: 12px 22px;
+    background: #e2e8f0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+#addStudentBtn:hover {
+    background: #cbd5e1;
+}
+
+/* ================================
+   STUDENT LIST BOX
+================================ */
+#studentList {
+    min-height: 50px;
+    margin-top: 15px;
+    padding: 15px;
+    background: #f1f5f9;
+    border-radius: 14px;
+}
+
+/* ================================
+   SAVE BUTTON
+================================ */
+#saveClassBtn {
+    margin-top: 30px;
+    padding: 14px 28px;
+    border-radius: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #6366f1, #818cf8);
+    transition: 0.3s ease;
+}
+
+#saveClassBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+}
+
+

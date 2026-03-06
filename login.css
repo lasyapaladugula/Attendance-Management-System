@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6a7bd1, #7b4fa3);
+}
+
+/* CARD */
+.login-container {
+  background: #f5f5f5;
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* TITLE */
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+/* INPUTS & SELECT */
+.login-container select,
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+/* BUTTON */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #6a7bd1;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #5a6bc1;
+}

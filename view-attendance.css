@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  background: #f4f6f8;
+}
+
+/* Page title */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.percent.green {
+  background: #2ecc71;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.percent.yellow {
+  background: #f1c40f;
+  color: #333;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.percent.red {
+  background: #e74c3c;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+
+/* Dropdown */
+select {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-bottom: 25px;
+  min-width: 260px;
+}
+
+/* Table container */
+#reportTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+/* Table header */
+#reportTable th {
+  background: #667eea;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Table data */
+#reportTable td {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Alternate row color */
+#reportTable tr:nth-child(even) td {
+  background: #f9f9f9;
+}
+
+/* Hover effect */
+#reportTable tr:hover td {
+  background: #eef2ff;
+}
+
+/* Status coloring (optional if you add later) */
+.present {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.late {
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+.absent {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  #reportTable th,
+  #reportTable td {
+    padding: 10px;
+    font-size: 13px;
+  }
+}

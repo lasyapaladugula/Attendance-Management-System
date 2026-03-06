@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  background: white;
+  width: 360px;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 22px;
+  color: #333;
+}
+
+.auth-card input,
+.auth-card select {
+  width: 100%;
+  padding: 11px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  background: #5a67d8;
+}
+
+#msg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+.switch-auth {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.switch-auth a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.switch-auth a:hover {
+  text-decoration: underline;
+}
+
+
